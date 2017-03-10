@@ -1,4 +1,4 @@
-# TN_TO_MD
+# Translation notes to markdown
 Convert translation notes to markdown. 
 
 Steps to run script: 
@@ -9,5 +9,9 @@ $ sudo chmod +x R markdown_to_tag.rb
 
 ##Run script
  $ sudo ./markdown_to_tag.rb
+
+Output file will generate as book_name.
+
+## Translation heading should be "Translation" in source file.
 
 Any issue please rech out to [sandeep.kumar@bridgeconn.com](sandeep.kumar@bridgeconn.com)
