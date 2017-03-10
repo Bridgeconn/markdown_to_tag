@@ -15,7 +15,7 @@ Dir.glob("**/*.xlsx") do |file|
 
   check_chapter = ""
   xlsx.each_with_pagename do |name, sheet|
-    sheet.each(book: "Book", chapter: "Chapter", verse: "Verse" , notes: "Notes" )  do |s|
+    sheet.each(book: "Book", chapter: "Chapter", verse: "Verse" , notes: "TRANSLATION" )  do |s|
       if s[:chapter] != "Chapter"
         verse = s[:verse].split("-")[0]
         if(check_chapter != s[:chapter])
