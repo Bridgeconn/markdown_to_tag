@@ -5,10 +5,10 @@ Steps to run script:
 Put sorce file on folder with any name.
 
 ##Make ruby script executable:
-$ sudo chmod +x R markdown_to_tag.rb
+$ sudo chmod +x R markdown_to_text.rb
 
 ##Run script
- $ sudo ./markdown_to_tag.rb
+ $ sudo ./markdown_to_text.rb
 
 Output file will generate as book_name.
 
