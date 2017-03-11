@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 html_tag = ""
 tmp = ""
 no_dir_temp = ""
